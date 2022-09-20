@@ -1,0 +1,54 @@
+.calculation-table {
+  width: 450px;
+  height: 200px;
+  border-collapse: collapse;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.calculation-table > thead {
+  margin: 10px;
+}
+li {
+  list-style: none;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0%;
+  padding-left: 0%;
+  margin: 0% auto;
+}
+.number-tabel > ul {
+  padding: 0 auto;
+}
+.number-tabel {
+  border: solid 7px rgb(139, 4, 4);  /* 枠線指定 */
+  text-align: center;
+}
+.number-tabel > ul > li > input {
+  width: 120px;
+  height: 100px;
+}
+.last-tabel {
+  border: solid 7px rgb(139, 4, 4); /* 枠線指定 */ 
+  text-align: center;
+}
+.last-tabel > ul > li > input {
+  width: 240px;
+  height: 50px;
+}
+.input_tabel {
+  position: relative;
+}
+.inputForm > input{
+  height: 50px;
+  padding-left: 44px;
+  padding-right: 35.8%;
+  font-size: 25px;
+}
+.inputForm {
+  margin-right: 1%;
+  width: 100%;
+  margin-right: 10px;
+  text-align: right;
+}

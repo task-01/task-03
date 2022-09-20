@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="main.css">
+<title>電卓</title>
+</head>
+<body>
+<table class="calculation-table">
+  <thead>
+    <tr>
+      <td class="number-tabel">
+        <div class="inputForm"><input name="b" type="text" id="inputForm" readonly></div>  
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="number-tabel">
+        <ul>
+          <li><input type="button" value="7" id="number7" onclick="buttonValue(this)"></li>
+          <li><input type="button" value="8" id="number8" onclick="buttonValue(this)"></li>
+          <li><input type="button" value="9" id="number9" onclick="buttonValue(this)"></li>
+          <li><input type="button" value="+" id="calculationMark1" onclick="buttonValue(this)"></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td class="number-tabel">
+        <ul>
+          <li><input type="button" value="4" id="cnumber4" onclick="buttonValue(this)"></li>
+          <li><input type="button" value="5" id="number5" onclick="buttonValue(this)"></li>
+          <li><input type="button" value="6" id="number6" onclick="buttonValue(this)"></li>
+          <li><input type="button" value="-" id="calculationMark2" onclick="buttonValue(this)"></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td class="number-tabel">
+        <ul>
+          <li><input type="button" value="1" id="number1" onclick="buttonValue(this)"></li>
+          <li><input type="button" value="2" id="number2" onclick="buttonValue(this)"></li>
+          <li><input type="button" value="3" id="number3" onclick="buttonValue(this)"></li>
+          <li><input type="button" value="*" id="calculationMark3" onclick="buttonValue(this)"></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td class="number-tabel">
+        <ul>
+          <li><input type="button" value="0" id="number0" onclick="buttonValue(this)"></li>
+          <li><input type="button" value="00" id="number00" onclick="buttonValue(this)"></li>
+          <li><input type="button" value="." id="calculationMark4" onclick="buttonValue(this)"></li>
+          <li><input type="button" value="/" id="calculationMark5" onclick="buttonValue(this)"></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td class="last-tabel">
+        <ul>
+          <li><input type="button" value="AC" id='allclear_btn'></li>
+          <li><input type="button" value="=" id='equal_btn'></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+<script src="index.js"></script>
+</body>
+</html>
